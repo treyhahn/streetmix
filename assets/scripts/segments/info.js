@@ -292,9 +292,6 @@ export const SEGMENT_INFO = {
         }
       }
     }
-    if (bike-rack-elevation = road) {
-      name = 'CityRack Bike Corral'
-    }
   },
 
   'sidewalk-bench': {
