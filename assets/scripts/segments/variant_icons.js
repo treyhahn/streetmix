@@ -149,7 +149,7 @@ export const VARIANT_ICONS = {
     },
     'planting-strip': {
       'id': 'grass',
-      'title': 'Planting strip'
+      'title': 'Greenstreet Planting'
     },
     'planter-box': {
       'id': 'planter-box',
@@ -157,19 +157,19 @@ export const VARIANT_ICONS = {
     },
     'bush': {
       'id': 'bush',
-      'title': 'Planting strip with a bush'
+      'title': 'Greenstreet Planting'
     },
     'flowers': {
       'id': 'flowers',
-      'title': 'Planting strip with flowers'
+      'title': 'Greenstreet Planting'
     },
     'big-tree': {
       'id': 'tree',
-      'title': 'Planting strip with a tree'
+      'title': 'Greenstreet Planting'
     },
     'palm-tree': {
       'id': 'palm-tree',
-      'title': 'Planting strip with a palm tree'
+      'title': 'Greenstreet Planting'
     },
     'bollard': {
       'id': 'bollard',
@@ -251,7 +251,7 @@ export const VARIANT_ICONS = {
     },
     'road': {
       'id': 'elevation-lower',
-      'title': 'Perpendicular parking, road level'
+      'title': 'CityRack Bike Corral'
     }
   },
   'car-type': {

@@ -6,44 +6,26 @@
     "sidewalk-tree": {
       "name": "Sidewalk with a tree"
     },
-    "sidewalk-bike-rack": {
-      "name": "Bike rack"
+    "city-rack": {
+      "name": "CityRack"
     },
     "sidewalk-bench": {
-      "name": "Bench"
+      "name": "CityBench"
     },
     "sidewalk-wayfinding": {
-      "name": "Wayfinding sign",
-      "description": {
-        "prompt": "Learn more about wayfinding signs",
-        "lede": "Wayfinding signs help pedestrians get to common destinations.",
-        "text": [
-          "Urban planners and architects have spent a few decades trying to learn what happens in people’s brains when they figure out how to get from point A to point B – or how they even know where “point A” is to begin with. As early as 1960, urban planner Kevin Lynch wrote of the “legibility” of the city in his book <em><a href=\"http://www.amazon.com/Image-Harvard-MIT-Center-Studies-Series/dp/0262620014\">The Image of the City</a></em>, describing wayfinding as “a consistent use and organization of definite sensory cues from the external environment.” It could be intangible – smell, touch, a sense of gravity or even electric or magnetic fields. Or it could be much more physical, with intentionally designed “wayfinding devices” like maps, street numbers, or route signs.",
-          "It’s surprising how readily acceptable it is for ample signage to cater to car travel, with less of this investment made at the pedestrian level. Maybe it’s because it’s easier for us to stand still, take stock of our surroundings, and use our senses without fear of accidentally causing a six-person pileup behind us. At any rate, urban designers have pushed for pedestrian-friendly wayfinding signage, particularly in walkable commercial neighborhoods, and these signs have become branding opportunities in addition to being functional. So New York City <a href=\"http://new.pentagram.com/2013/06/new-work-nyc-wayfinding/\">hired an internationally renowned design consultant</a> (and Streetmix has modeled its segments after it), many others have adopted a traditional old-town or civic-formal take (pictured above), and then there are those, for whatever reason, who lack any pedestrian wayfinding signage of significance, such that any improvement must be made with <a href=\"http://walkyourcity.org/\">guerrilla wayfinding tactics</a>.",
-          "After all, there’s nothing worse than being lost. As Lynch wrote: “The very word <em>lost</em> in our language means much more than simple geographical uncertainty; it carries overtones of utter disaster.” And who wants to be on the street feeling like that?"
-        ]
-      }
+      "name": "WalkNYC sign"
     },
     "sidewalk-lamp": {
-      "name": "Sidewalk with a lamp"
+      "name": "CityLight"
     },
-    "parklet": {
-      "name": "Parklet",
-      "description": {
-        "prompt": "Learn more about parklets",
-        "imageCaption": "4033 Judah Street Parklet, courtesy of San Francisco Planning Department.",
-        "lede": "Parklets turn existing parking spots into temporary public spaces.",
-        "text": [
-          "In 2005, San Francisco-based design studio <a href=\"http://rebargroup.org/\">Rebar</a> temporarily converted a single metered parking space on downtown Mission Street into a tiny public park. The first parklet was simple: just a bench and a tree on a rectangular piece of turf, but it featured a brief instruction manual and a charge for others to make their own. With people realizing that so much of public space was really devoted to storing cars, an international movement was born, and now, the annual <a href=\"http://parkingday.org/\">Park(ing) Day</a> hosts nearly a thousand temporarily converted spots around the world.",
-          "Knowing a good idea when it sees one, San Francisco became the first city to make parklets official with its <a href=\"http://sfpavementtoparks.sfplanning.org/\">Pavement to Parks program</a> in 2010. Today, the City by the Bay has over 50 parklets, many of which are now architecturally designed objects much improved beyond Rebar’s modest prototype. There’s an ambitious, corporate-sponsored two-block-long parklet in the heart of San Francisco’s busiest shopping corridor, and also a collection of movable, bright red “parkmobiles” (Streetmix’s default look) designed for the <a href=\"http://www.ybcbd.org/\">Yerba Buena Community Benefit District</a>. Official parklet programs now exist in many other cities in North America, such as Philadelphia, Oakland, Kansas City, New York, Chicago, and Vancouver, and many more cities are soon to follow."
-        ]
-      }
+    "street-seat": {
+      "name": "Street Seat",
     },
     "divider": {
       "name": "Buffer",
       "details": {
         "planting-strip": {
-          "name": "Planting strip"
+          "name": "Greenstreet Planting"
         },
         "planter-box": {
           "name": "Planter box"
@@ -55,16 +37,16 @@
           "name": "Buffer"
         },
         "bush": {
-          "name": "Planting strip"
+          "name": "Greenstreet Planting"
         },
         "flowers": {
-          "name": "Planting strip"
+          "name": "Greenstreet Planting"
         },
         "big-tree": {
-          "name": "Planting strip"
+          "name": "Greenstreet Planting"
         },
         "palm-tree": {
-          "name": "Planting strip"
+          "name": "Greenstreet Planting"
         },
         "bollard": {
           "name": "Bollard"
@@ -265,19 +247,19 @@
     "tree-type|palm-tree": "Palm tree",
     "divider-type|median": "Median",
     "divider-type|striped-buffer": "Striped buffer",
-    "divider-type|planting-strip": "Planting strip",
+    "divider-type|planting-strip": "Greenstreet Planting",
     "divider-type|planter-box": "Planter box",
-    "divider-type|bush": "Planting strip with a bush",
-    "divider-type|flowers": "Planting strip with flowers",
-    "divider-type|big-tree": "Planting strip with a tree",
-    "divider-type|palm-tree": "Planting strip with a palm tree",
+    "divider-type|bush": "Greenstreet Planting",
+    "divider-type|flowers": "Greenstreet Planting",
+    "divider-type|big-tree": "Greenstreet Planting",
+    "divider-type|palm-tree": "Greenstreet Planting",
     "divider-type|bollard": "Bollard",
     "divider-type|dome": "Traffic exclusion dome",
     "transit-shelter-elevation|street-level": "Street level",
     "transit-shelter-elevation|light-rail": "Light rail platform",
     "bike-rack-elevation|sidewalk-parallel": "Parallel parking, sidewalk level",
     "bike-rack-elevation|sidewalk": "Perpendicular parking, sidewalk level",
-    "bike-rack-elevation|road": "Perpendicular parking, road level",
+    "bike-rack-elevation|road": "CityRack Bike Corral",
     "building|waterfront": "Waterfront",
     "building|grass": "Grass",
     "building|fence": "Empty lot",

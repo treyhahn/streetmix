@@ -223,7 +223,7 @@ function incrementSchemaVersion (street) {
     case 12:
       for (let i in street.segments) {
         segment = street.segments[i]
-        if (segment.type === 'sidewalk-bike-rack') {
+        if (segment.type === 'city-rack') {
           variant = getVariantArray(segment.type, segment.variantString)
           variant['bike-rack-elevation'] = 'sidewalk'
           segment.variantString = getVariantString(variant)

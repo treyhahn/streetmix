@@ -247,8 +247,8 @@ export const SEGMENT_INFO = {
       }
     }
   },
-  'sidewalk-bike-rack': {
-    name: 'Bike rack',
+  'city-rack': {
+    name: 'CityRack',
     owner: SEGMENT_OWNER_BIKE,
     zIndex: 2,
     defaultWidth: 5,
@@ -292,10 +292,13 @@ export const SEGMENT_INFO = {
         }
       }
     }
+    if (bike-rack-elevation = road) {
+      name = 'CityRack Bike Corral'
+    }
   },
 
   'sidewalk-bench': {
-    name: 'Bench',
+    name: 'CityBench',
     owner: SEGMENT_OWNER_PEDESTRIAN,
     zIndex: 2,
     defaultWidth: 4,
@@ -323,22 +326,11 @@ export const SEGMENT_INFO = {
   },
 
   'sidewalk-wayfinding': {
-    name: 'Wayfinding sign',
+    name: 'WalkNYC sign',
     owner: SEGMENT_OWNER_PEDESTRIAN,
     zIndex: 2,
     defaultWidth: 4,
     variants: ['wayfinding-type'],
-    description: {
-      prompt: 'Learn more about wayfinding signs',
-      image: 'wayfinding-02.jpg',
-      imageCaption: '',
-      lede: 'Wayfinding signs help pedestrians get to common destinations.',
-      text: [
-        'Urban planners and architects have spent a few decades trying to learn what happens in people’s brains when they figure out how to get from point A to point B – or how they even know where “point A” is to begin with. As early as 1960, urban planner Kevin Lynch wrote of the “legibility” of the city in his book <em><a href="http://www.amazon.com/Image-Harvard-MIT-Center-Studies-Series/dp/0262620014">The Image of the City</a></em>, describing wayfinding as “a consistent use and organization of definite sensory cues from the external environment.” It could be intangible – smell, touch, a sense of gravity or even electric or magnetic fields. Or it could be much more physical, with intentionally designed “wayfinding devices” like maps, street numbers, or route signs.',
-        'It’s surprising how readily acceptable it is for ample signage to cater to car travel, with less of this investment made at the pedestrian level. Maybe it’s because it’s easier for us to stand still, take stock of our surroundings, and use our senses without fear of accidentally causing a six-person pileup behind us. At any rate, urban designers have pushed for pedestrian-friendly wayfinding signage, particularly in walkable commercial neighborhoods, and these signs have become branding opportunities in addition to being functional. So New York City <a href="http://new.pentagram.com/2013/06/new-work-nyc-wayfinding/">hired an internationally renowned design consultant</a> (and Streetmix has modeled its segments after it), many others have adopted a traditional old-town or civic-formal take (pictured above), and then there are those, for whatever reason, who lack any pedestrian wayfinding signage of significance, such that any improvement must be made with <a href="http://walkyourcity.org/">guerrilla wayfinding tactics</a>.',
-        'After all, there’s nothing worse than being lost. As Lynch wrote: “The very word <em>lost</em> in our language means much more than simple geographical uncertainty; it carries overtones of utter disaster.” And who wants to be on the street feeling like that?'
-      ]
-    },
     details: {
       'large': {
         graphics: {
@@ -362,7 +354,7 @@ export const SEGMENT_INFO = {
   },
 
   'sidewalk-lamp': {
-    name: 'Sidewalk with a lamp',
+    name: 'CityLight',
     owner: SEGMENT_OWNER_PEDESTRIAN,
     zIndex: 2,
     defaultWidth: 4,
@@ -434,22 +426,12 @@ export const SEGMENT_INFO = {
       }
     }
   },
-  'parklet': {
-    name: 'Parklet',
+  'street-seat': {
+    name: 'Street Seat',
     owner: SEGMENT_OWNER_NATURE,
     zIndex: 2,
     defaultWidth: 8,
     variants: ['orientation'],
-    description: {
-      prompt: 'Learn more about parklets',
-      image: 'parklets-01.jpg',
-      imageCaption: '4033 Judah Street Parklet, courtesy of San Francisco Planning Department.',
-      lede: 'Parklets turn existing parking spots into temporary public spaces.',
-      text: [
-        'In 2005, San Francisco-based design studio <a href="http://rebargroup.org/">Rebar</a> temporarily converted a single metered parking space on downtown Mission Street into a tiny public park. The first parklet was simple: just a bench and a tree on a rectangular piece of turf, but it featured a brief instruction manual and a charge for others to make their own. With people realizing that so much of public space was really devoted to storing cars, an international movement was born, and now, the annual <a href="http://parkingday.org/">Park(ing) Day</a> hosts nearly a thousand temporarily converted spots around the world.',
-        'Knowing a good idea when it sees one, San Francisco became the first city to make parklets official with its <a href="http://sfpavementtoparks.sfplanning.org/">Pavement to Parks program</a> in 2010. Today, the City by the Bay has over 50 parklets, many of which are now architecturally designed objects much improved beyond Rebar’s modest prototype. There’s an ambitious, corporate-sponsored two-block-long parklet in the heart of San Francisco’s busiest shopping corridor, and also a collection of movable, bright red “parkmobiles” (Streetmix’s default look) designed for the <a href="http://www.ybcbd.org/">Yerba Buena Community Benefit District</a>. Official parklet programs now exist in many other cities in North America, such as Philadelphia, Oakland, Kansas City, New York, Chicago, and Vancouver, and many more cities are soon to follow.'
-      ]
-    },
     details: {
       'left': {
         minWidth: 8,
@@ -476,7 +458,7 @@ export const SEGMENT_INFO = {
     paletteIcon: 'planting-strip',
     details: {
       'planting-strip': {
-        name: 'Planting strip',
+        name: 'Greenstreet Planting',
         graphics: {
           repeat: [
             { tileset: 2, x: 121, y: 53, width: 4, height: 5, offsetY: 10, offsetLeft: 0, offsetRight: 0 },
@@ -517,7 +499,7 @@ export const SEGMENT_INFO = {
         }
       },
       'bush': {
-        name: 'Planting strip',
+        name: 'Greenstreet Planting',
         graphics: {
           center: { tileset: 2, x: 122, y: 55, width: 2, height: 5, offsetY: 7 },
           repeat: [
@@ -527,7 +509,7 @@ export const SEGMENT_INFO = {
         }
       },
       'flowers': {
-        name: 'Planting strip',
+        name: 'Greenstreet Planting',
         graphics: {
           center: { tileset: 2, x: 122, y: 59, width: 2, height: 5, offsetY: 7 },
           repeat: [
@@ -537,7 +519,7 @@ export const SEGMENT_INFO = {
         }
       },
       'big-tree': {
-        name: 'Planting strip',
+        name: 'Greenstreet Planting',
         graphics: {
           center: { tileset: 1, x: 40, y: 56, width: 9, height: 21, offsetY: -10 }, // Big tree
           repeat: [
@@ -547,7 +529,7 @@ export const SEGMENT_INFO = {
         }
       },
       'palm-tree': {
-        name: 'Planting strip',
+        name: 'Greenstreet Planting',
         graphics: {
           center: { tileset: 1, x: 83, y: 24, offsetX: 0, offsetY: -19, width: 14, /* 14 */ height: 31 },
           repeat: [
