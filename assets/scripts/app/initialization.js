@@ -205,13 +205,13 @@ if (debug.hoverPolygon) {
 }
 
 // Toggle experimental features
-if (!debug.experimental) {
+/*if (!debug.experimental) {
   document.getElementById('settings-menu-item').style.display = 'none'
 } else {
   // Initalize i18n / localization
   // Currently experimental-only
-  initLocale()
-}
+  */initLocale()
+//}
 
 // Other
 addBodyClasses()
