@@ -6,7 +6,7 @@
     "sidewalk-tree": {
       "name": "Sidewalk with a tree"
     },
-    "city-rack": {
+    "bike-rack": {
       "name": "CityRack"
     },
     "sidewalk-bench": {
@@ -18,7 +18,7 @@
     "sidewalk-lamp": {
       "name": "CityLight"
     },
-    "street-seat": {
+    "parklet": {
       "name": "Street Seat",
     },
     "divider": {
@@ -58,7 +58,7 @@
     },
     "bike-lane": {
       "name": "Bike lane",
-      /*"description": {
+      "description": {
         "prompt": "Learn more about bike lanes",
         "lede": "Bike lanes help keep bicyclists safe in a separate lane from cars.",
         "text": [
@@ -90,7 +90,7 @@
             ]
           }
         }
-      }*/
+      }
     },
     "parking-lane": {
       "name": "Parking lane",
