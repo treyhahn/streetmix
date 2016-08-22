@@ -11,7 +11,7 @@ export const DEFAULT_SEGMENTS = {
     { type: 'bike-lane', variant: { 'direction': 'outbound', 'bike-asphalt': 'colored' }, width: 6 },
     { type: 'sidewalk-tree', variant: { 'tree-type': 'big' }, width: 2 },
     { type: 'bike-rack', variant: { 'orientation': 'left', 'bike-rack-elevation': 'sidewalk-parallel' }, width: 3 },
-    { type: 'sidewalk-bench', variant: { 'bench-orientation': 'left' }, width: 6 }
+    { type: 'sidewalk-bench', variant: { 'bench-orientation': 'left' }, width: 6 },
     { type: 'sidewalk', variant: { 'sidewalk-density': 'dense' }, width: 6 }
   ],
   'true': [ // Left-hand traffic
