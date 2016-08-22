@@ -29,8 +29,9 @@
     "contact": {
       "twitter": "Send a tweet to @streetmix",
       "email": "Send an email to Streetmix team",
-      "github": "View/comment on GitHub",
-      "blog": "Visit Streetmix blog"
+      "github": "View source code on GitHub",
+      "blog": "Visit Streetmix blog",
+      "slack": "Join Slack chat"
     },
     "feedback": {
       "prompt": "Send us a message:",
