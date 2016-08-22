@@ -647,7 +647,7 @@ function doDropHeuristics (type, variantString, width) {
 
   // Parklet orientation
 
-  if (type === 'parklet') {
+  if (type === 'street-seat') {
     if (left && leftOwnerAsphalt) {
       variant['orientation'] = 'right'
     } else if (right && rightOwnerAsphalt) {
@@ -685,7 +685,7 @@ function doDropHeuristics (type, variantString, width) {
 
   // Bike rack orientation
 
-  if (type === 'bike-rack') {
+  if (type === 'city-rack') {
     if (left && (leftOwner !== SEGMENT_OWNER_PEDESTRIAN)) {
       variant['orientation'] = 'left'
     } else if (right && (rightOwner !== SEGMENT_OWNER_PEDESTRIAN)) {
