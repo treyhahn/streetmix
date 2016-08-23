@@ -79,7 +79,8 @@ app.use('/assets/css/styles.css', middleware.styles)
 
 // Build JavaScript bundle via browserify
 app.get('/assets/scripts/main.js', browserify(path.join(__dirname, '/assets/scripts/main.js'), {
-  cache: true,
+  debug: true,
+    cache: true,
   precompile: true,
   extensions: [ '.jsx' ],
   transform: [[{ presets: ['es2015', 'react'] }, babelify], envify({
