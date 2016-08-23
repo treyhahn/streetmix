@@ -247,7 +247,7 @@ export const SEGMENT_INFO = {
       }
     }
   },
-  'city-rack': {
+  'bike-rack': {
     name: 'CityRack',
     owner: SEGMENT_OWNER_BIKE,
     zIndex: 2,

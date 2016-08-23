@@ -685,7 +685,7 @@ function doDropHeuristics (type, variantString, width) {
 
   // Bike rack orientation
 
-  if (type === 'city-rack') {
+  if (type === 'bike-rack') {
     if (left && (leftOwner !== SEGMENT_OWNER_PEDESTRIAN)) {
       variant['orientation'] = 'left'
     } else if (right && (rightOwner !== SEGMENT_OWNER_PEDESTRIAN)) {
