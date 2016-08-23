@@ -752,7 +752,7 @@ export const SEGMENT_INFO = {
         minWidth: 12,
         maxWidth: 14,
         defaultWidth: 14,
-        description: {
+        /*description: {
           prompt: 'Learn more about sharrows',
           image: 'sharrow-01.jpg',
           imageCaption: '',
@@ -762,7 +762,7 @@ export const SEGMENT_INFO = {
             'That being said, it doesn’t take a rocket scientist to see that cars and bikes behave very differently, and so separate bike lanes are <a href="http://dc.streetsblog.org/2013/06/13/in-california-cities-drivers-want-more-bike-lanes-heres-why/">much more preferable</a> for both the safety of cyclists and the sanity of car drivers. But for many cyclists, when there’s not enough road space for those bike lanes, the argument is that sharrows are better than nothing else at all. Motorists tend to forget there are other types of vehicles, and cyclists appreciate any opportunity to remind motorists that they exist and must coexist peacefully together. And giving cyclists more leeway to use the full width of a lane can also protect them from parked cars, in a particular type of accident cyclists call “getting doored.”',
             'Sharrow markings are a simple way to provide more visibility to bicyclists, since paint is cheaper than building a dedicated bike lane, and more politically feasible. However, some research on safety (such as a <a href="http://injuryprevention.bmj.com/content/early/2013/02/13/injuryprev-2012-040561.full.pdf">2012 BMJ study</a> of bicycle injuries in Vancouver and Toronto) indicate that there were slightly increased odds of injury in a shared lane, compared to those in a dedicated bike lane. The moral of the story is, take care of bicyclists by trying to put in a normal bike lane first before resorting to sharrows.'
           ]
-        },
+        },*/
         graphics: {
           center: [
             { tileset: 1, x: 8, y: 32, width: 8, height: 8, offsetY: 5 }, // Car (inbound)
@@ -777,7 +777,7 @@ export const SEGMENT_INFO = {
         minWidth: 12,
         maxWidth: 14,
         defaultWidth: 14,
-        description: {
+        /*description: {
           prompt: 'Learn more about sharrows',
           image: 'sharrow-01.jpg',
           imageCaption: '',
@@ -787,7 +787,7 @@ export const SEGMENT_INFO = {
             'That being said, it doesn’t take a rocket scientist to see that cars and bikes behave very differently, and so separate bike lanes are <a href="http://dc.streetsblog.org/2013/06/13/in-california-cities-drivers-want-more-bike-lanes-heres-why/">much more preferable</a> for both the safety of cyclists and the sanity of car drivers. But for many cyclists, when there’s not enough road space for those bike lanes, the argument is that sharrows are better than nothing else at all. Motorists tend to forget there are other types of vehicles, and cyclists appreciate any opportunity to remind motorists that they exist and must coexist peacefully together. And giving cyclists more leeway to use the full width of a lane can also protect them from parked cars, in a particular type of accident cyclists call “getting doored.”',
             'Sharrow markings are a simple way to provide more visibility to bicyclists, since paint is cheaper than building a dedicated bike lane, and more politically feasible. However, some research on safety (such as a <a href="http://injuryprevention.bmj.com/content/early/2013/02/13/injuryprev-2012-040561.full.pdf">2012 BMJ study</a> of bicycle injuries in Vancouver and Toronto) indicate that there were slightly increased odds of injury in a shared lane, compared to those in a dedicated bike lane. The moral of the story is, take care of bicyclists by trying to put in a normal bike lane first before resorting to sharrows.'
           ]
-        },
+        },*/
         graphics: {
           center: [
             { tileset: 1, x: 0, y: 32, width: 8, height: 8, offsetY: 5 }, // Car (outbound)
@@ -1214,7 +1214,7 @@ export const SEGMENT_INFO = {
       },
       'left|light-rail': {
         minWidth: 8,
-        description: {
+        /*description: {
           prompt: 'Learn more about elevated transit shelters',
           image: 'transit-station-elevated.jpg',
           imageCaption: '',
@@ -1224,7 +1224,7 @@ export const SEGMENT_INFO = {
             'Because of this focus on efficiency, transit vehicles that use elevated platforms are also usually in their own dedicated lanes, so these platforms are placed where they can access these lanes easily, usually in the median.  If placed inbetween lanes going in opposite directions, they can easily serve passengers on both sides of the platform (and you’ll need to place two of them in Streetmix).',
             'Elevated shelters are also sometimes designed like heavy rail train stations, enclosed or with a roof to protect passengers from the elements, and are handy visual beacons of public transit on a busy boulevard. But compared with shelters that are at curb height, they tend to be more expensive pieces of infrastructure and take up more space with of wheelchair ramps. This makes it more difficult for BRT services to be provided with as much flexibility as a normal bus service. Furthermore, with low-floor buses becoming increasingly more common, it starts to reduce the need to have higher platforms.'
           ]
-        },
+        },*/
         graphics: {
           left: { tileset: 3, x: 171, y: 51, width: 9, height: 12, offsetY: -3 },
           repeat: { tileset: 2, x: 110, y: 63, width: 9, height: 9, offsetY: 6 } // Raised concrete
@@ -1232,7 +1232,7 @@ export const SEGMENT_INFO = {
       },
       'right|light-rail': {
         minWidth: 8,
-        description: {
+        /*description: {
           prompt: 'Learn more about elevated transit shelters',
           image: 'transit-station-elevated.jpg',
           imageCaption: '',
@@ -1242,7 +1242,7 @@ export const SEGMENT_INFO = {
             'Because of this focus on efficiency, transit vehicles that use elevated platforms are also usually in their own dedicated lanes, so these platforms are placed where they can access these lanes easily, usually in the median.  If placed inbetween lanes going in opposite directions, they can easily serve passengers on both sides of the platform (and you’ll need to place two of them in Streetmix).',
             'Elevated shelters are also sometimes designed like heavy rail train stations, enclosed or with a roof to protect passengers from the elements, and are handy visual beacons of public transit on a busy boulevard. But compared with shelters that are at curb height, they tend to be more expensive pieces of infrastructure and take up more space with of wheelchair ramps. This makes it more difficult for BRT services to be provided with as much flexibility as a normal bus service. Furthermore, with low-floor buses becoming increasingly more common, it starts to reduce the need to have higher platforms.'
           ]
-        },
+        },*/
         graphics: {
           right: { tileset: 3, x: 181, y: 51, width: 9, height: 13, offsetY: -3 },
           repeat: { tileset: 2, x: 110, y: 63, width: 9, height: 9, offsetY: 6 } // Raised concrete
