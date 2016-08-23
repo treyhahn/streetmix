@@ -423,7 +423,7 @@ export const SEGMENT_INFO = {
       }
     }
   },
-  'street-seat': {
+  'parklet': {
     name: 'Street Seat',
     owner: SEGMENT_OWNER_NATURE,
     zIndex: 2,

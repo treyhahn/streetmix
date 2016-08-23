@@ -647,7 +647,7 @@ function doDropHeuristics (type, variantString, width) {
 
   // Parklet orientation
 
-  if (type === 'street-seat') {
+  if (type === 'parklet') {
     if (left && leftOwnerAsphalt) {
       variant['orientation'] = 'right'
     } else if (right && rightOwnerAsphalt) {
